@@ -5,4 +5,5 @@ cask "futu-opend" do
     name "FutuOpenD financial app"
     homepage "https://openapi.futunn.com"
     app "FutuOpenD.app"
+    binary "#{appdir}/FutuOpenD.app/Contents/MacOS/FutuOpenD"
   end
